@@ -18,13 +18,6 @@ public class PlayerMovement : MonoBehaviour
         transform.position += arah * kecepatan * Time.deltaTime;
     }
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("Coin"))
-        {
-            Destroy(other.gameObject);
-
-            FindFirstObjectByType<GameManager>().AmbilKoin();
-        }
-    }
+    // Pengambilan koin sekarang ditangani oleh Item.cs (masuk ke inventory),
+    // jadi OnTriggerEnter2D untuk koin dihapus dari sini.
 }

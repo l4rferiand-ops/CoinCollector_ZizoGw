@@ -67,6 +67,6 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "CoinCollector_Jeremy.slnx",
+    "dotnet.defaultSolution": "CoinCollector_Zizo.slnx",
     "dotnet.enableWorkspaceBasedDevelopment": false
 }
